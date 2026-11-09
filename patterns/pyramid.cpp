@@ -1,7 +1,6 @@
 
 // patterns
 // star pyramid
-
 #include <iostream>
 using namespace std;
 
@@ -23,14 +22,10 @@ void pattern7(int n) {
 
 int main() {
 
-    int t;
-    cin >> t;
+    int n;
+    cin >> n;
 
-    for (int i = 0; i < t; i++) {
-        int n;
-        cin >> n;
-        pattern7(n);
-    }
+    pattern7(n);
 
     return 0;
 }
